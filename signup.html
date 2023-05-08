@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style2.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"rel="stylesheet" />
+  </head>
+  <body>
+    <div class="signup-box">
+      <h1>Sign Up</h1>
+      <h4>It's free and only takes a minute</h4>
+      <form>
+        <label>Registration ID</label>
+        <input type="" placeholder="ex: 23WP0001" pattern="[A-Z0-9]{3,15}$"required/>
+        <label>Username</label>
+        <input type="text" placeholder="John" pattern="[A-Za-z]{3,8}"title="Digits not allowed" required/>
+        <label>Email</label>
+        <input type="email" placeholder="john@example.com"   title="Must be valid email id" required />
+        <label>Mobile No. </label>
+        <input type="number" placeholder="8855956232" pattern="[0-9]{10}$"  title="shouldnt be like (0000000000)" required/>
+        <label>Password</label>
+        <input type="password" placeholder="Minimum 8 digit " pattern="(?=.*\d)(?=.*[a-z])(?=.*[@#$*&^_])(?=.*[A-Z]).{8,15}" required title="Must contain atleast one small case letter, an 
+        uppercase letter, a digit, and a special character"/>
+       <label>DOB</label><input type="date" placeholder="DD-MM-YYYY" />    
+        <input type="submit" value="Submit" />       
+      </form>
+    </div>
+    <p class="para-2">
+      Already have an account? <a href="login.html">Login here</a>
+    </p>
+    <div>
+    <br>
+    <div class="para-2">
+    <a class="back" href="index.html">Back to Home</a></div></div>
+  </body>
+</html>
+
