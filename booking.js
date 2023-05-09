@@ -61,7 +61,7 @@ function myFunction() {
   }}
 updateSelectedCount();
 //timer---
-var countDownDate = new Date("May 9, 2023 10:40:25").getTime();
+var countDownDate = new Date("May 29, 2023 10:40:25").getTime();
 var x = setInterval(function() {
   var now = new Date().getTime();
   var distance = countDownDate - now;
